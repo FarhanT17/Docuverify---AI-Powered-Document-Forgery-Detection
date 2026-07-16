@@ -11,6 +11,20 @@ AI-powered mobile application that detects forged documents using deep learning 
 - 🎨 **Professional UI** - Enterprise-grade design with smooth animations
 - 🔒 **Secure & Private** - All processing done on your own server
 
+## 📸 Screenshots
+
+<div align="center">
+  <img src="Homescreen.jpeg" width="180" alt="Home Screen" />
+  <img src="Verifydocumentscreen.jpeg" width="180" alt="Verify Screen" />
+  <img src="Reportauthentic.jpeg" width="180" alt="Authentic Result" />
+  <img src="Reportforged.jpeg" width="180" alt="Forged Result" />
+</div>
+
+<div align="center">
+  <img src="Historyscreen.jpeg" width="180" alt="History Screen" />
+  <img src="Settingscreen.jpeg" width="180" alt="Settings Screen" />
+</div>
+
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -24,33 +38,41 @@ AI-powered mobile application that detects forged documents using deep learning 
 
 ```bash
 git clone https://github.com/FarhanT17/Docuverify---AI-Powered-Document-Forgery-Detection.git
+cd Docuverify---AI-Powered-Document-Forgery-Detection
+```
 
-2. Install Frontend Dependencies
-bash
+### 2. Install Frontend Dependencies
+
+```bash
 npm install
-# or
-yarn install
+```
 
-3. Setup Backend
-bash
+### 3. Setup Backend
+
+```bash
 cd backend
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate
 pip install -r requirements.txt
 python download_model.py
 python main.py
+```
 
-4. Run the App
-bash
+### 4. Run the App
+
+```bash
 npx expo start
+```
 
-5. Scan QR Code
-Scan with Expo Go (Android) or Camera app (iOS)
+### 5. Scan QR Code
 
-Press i for iOS simulator / a for Android emulator
+Scan with **Expo Go** (Android) or **Camera app** (iOS)
 
-📁 Project Structure
+Press `i` for iOS simulator / `a` for Android emulator
 
+## 📁 Project Structure
+
+```
 Docuverify-App/
 ├── screens/           # React Native screens
 │   ├── HomeScreen.js
@@ -73,66 +95,52 @@ Docuverify-App/
 ├── app.json
 ├── package.json
 └── README.md
+```
 
-##📊 Tech Stack
-Frontend	Backend	AI/ML
-React Native	FastAPI	Microsoft DiT (ViT)
-Expo	Python	PyTorch
-React Navigation	Transformers	400K+ Documents
+## 📊 Tech Stack
 
-##📸 Screenshots
+| Frontend | Backend | AI/ML |
+|----------|---------|-------|
+| React Native | FastAPI | Microsoft DiT (ViT) |
+| Expo | Python | PyTorch |
+| React Navigation | Transformers | 400K+ Documents |
 
-<div align="center">
-  <img src="Homescreen.jpeg" width="180" alt="Home Screen" />
-  <img src="Verifydocumentscreen.jpeg" width="180" alt="Verify Screen" />
-  <img src="Reportauthentic.jpeg" width="180" alt="Authentic Result" />
-  <img src="Reportforged.jpeg" width="180" alt="Forged Result" />
-</div>
+## 🎯 How It Works
 
-<div align="center">
-  <img src="Historyscreen.jpeg" width="180" alt="History Screen" />
-  <img src="Settingscreen.jpeg" width="180" alt="Settings Screen" />
-</div>
+1. **Capture** - Take a photo of a document or upload from gallery
+2. **Process** - The image is sent to the FastAPI backend
+3. **Analyze** - The AI model classifies the document
+4. **Result** - Returns prediction (Authentic/Forged) with confidence score
+5. **History** - All verifications are saved locally
 
+## 📊 Model Performance
 
+| Metric | Value |
+|--------|-------|
+| **Accuracy** | 94.5% |
+| **Dataset** | 400K+ Documents |
+| **Model** | Microsoft DiT (Vision Transformer) |
+| **Fine-tuned on** | RVL-CDIP dataset |
 
-##🎯 How It Works
-Capture - Take a photo of a document or upload from gallery
+## 👨‍💻 Author
 
-Process - The image is sent to the FastAPI backend
+**Farhan Tariq**
 
-Analyze - The AI model classifies the document
+- MSc Cyber Security, Northumbria University
+- 📧 farhantariq5251@gmail.com
+- 🔗 [LinkedIn](https://linkedin.com/in/farhant17)
+- 🐙 [Portfolio](https://farhantariq.vercel.app/)
 
-Result - Returns prediction (Authentic/Forged) with confidence score
+## 📄 License
 
-History - All verifications are saved locally
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-📊 Model Performance
-Metric	Value
-Accuracy	94.5%
-Dataset	400K+ Documents
-Model	Microsoft DiT (Vision Transformer)
-Fine-tuned on	RVL-CDIP dataset
+## 🙏 Acknowledgments
 
-👨‍💻 Author
-Farhan Tariq
+- Northumbria University - MSc Cyber Security program
+- Microsoft Research - DiT Vision Transformer model
+- Hugging Face - Transformers library
 
-MSc Cyber Security, Northumbria University
-
-📧 farhantariq5251@gmail.com
-
-🔗 LinkedIn: https://linkedin.com/in/farhant17
-
-🐙 Portfolio: https://farhantariq.vercel.app/
-
-📄 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-🙏 Acknowledgments
-Northumbria University - MSc Cyber Security program
-
-Microsoft Research - DiT Vision Transformer model
-
-Hugging Face - Transformers library
+---
 
 ⭐ Star this repository if you find it useful!
