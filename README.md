@@ -81,6 +81,7 @@ Expo	Python	PyTorch
 React Navigation	Transformers	400K+ Documents
 
 📸 Screenshots
+<img width="1320" height="2868" alt="WhatsApp Image 2026-07-16 at 11 27 10 PM" src="https://github.com/user-attachments/assets/6a2acb8a-3e5d-4338-a4d8-07ccda568700" />
 
 
 🎯 How It Works
