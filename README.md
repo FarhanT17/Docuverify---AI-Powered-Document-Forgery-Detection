@@ -14,16 +14,17 @@ AI-powered mobile application that detects forged documents using deep learning 
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="Homescreen.jpeg" width="180" alt="Home Screen" />
-  <img src="Verifydocumentscreen.jpeg" width="180" alt="Verify Screen" />
-  <img src="Reportauthentic.jpeg" width="180" alt="Authentic Result" />
-  <img src="Reportforged.jpeg" width="180" alt="Forged Result" />
+  <img src="assets/Homescreen.jpeg" width="180" alt="Home Screen" />
+  <img src="assets/Verifydocumentscreen.jpeg" width="180" alt="Verify Screen" />
+  <img src="assets/Reportauthentic.jpeg" width="180" alt="Authentic Result" />
+  <img src="assets/Reportforged.jpeg" width="180" alt="Forged Result" />
 </div>
 
 <div align="center">
-  <img src="Historyscreen.jpeg" width="180" alt="History Screen" />
-  <img src="Settingscreen.jpeg" width="180" alt="Settings Screen" />
+  <img src="assets/Historyscreen.jpeg" width="180" alt="History Screen" />
+  <img src="assets/Settingscreen.jpeg" width="180" alt="Settings Screen" />
 </div>
+
 
 ## 🚀 Quick Start
 
