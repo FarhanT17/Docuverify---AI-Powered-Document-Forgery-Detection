@@ -81,17 +81,18 @@ Expo	Python	PyTorch
 React Navigation	Transformers	400K+ Documents
 
 📸 Screenshots
-<p align="center">
-  <img src="./Homescreen.jpeg" width="180" alt="Home Screen" />
-  <img src="./Verifydocumentscreen.jpeg" width="180" alt="Verify Screen" />
-  <img src="./Reportauthentic.jpeg" width="180" alt="Authentic Result" />
-  <img src="./Reportforged.jpeg" width="180" alt="Forged Result" />
-</p>
 
-<p align="center">
-  <img src="./Historyscreen.jpeg" width="180" alt="History Screen" />
-  <img src="./Settingscreen.jpeg" width="180" alt="Settings Screen" />
-</p>
+<div align="center">
+  <img src="Homescreen.jpeg" width="180" alt="Home Screen" />
+  <img src="Verifydocumentscreen.jpeg" width="180" alt="Verify Screen" />
+  <img src="Reportauthentic.jpeg" width="180" alt="Authentic Result" />
+  <img src="Reportforged.jpeg" width="180" alt="Forged Result" />
+</div>
+
+<div align="center">
+  <img src="Historyscreen.jpeg" width="180" alt="History Screen" />
+  <img src="Settingscreen.jpeg" width="180" alt="Settings Screen" />
+</div>
 
 
 
