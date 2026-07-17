@@ -136,6 +136,16 @@ Docuverify-App/
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
+## 📊 Dataset Acknowledgments
+
+This project uses the following datasets:
+
+- **RVL-CDIP** - 400K+ document images for training
+- **FMIDV2022** - Mobile identity document verification dataset (provided by Dr. Muzzamil Luqman, La Rochelle Université)
+
+## Special Thanks
+A huge thank you to Dr. Muzzamil Luqman at La Rochelle Université for providing the FMIDV2022 dataset. Your support and the quality of the dataset played a crucial role in making this project a success.
+
 ## 🙏 Acknowledgments
 
 - Northumbria University - MSc Cyber Security program
